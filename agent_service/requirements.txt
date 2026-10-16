@@ -1,0 +1,12 @@
+crewai>=1.15.0
+crewai-tools
+fastapi>=0.115.0
+uvicorn>=0.30.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+sse-starlette>=2.0.0
+requests>=2.31.0
+pandas>=2.0.0
+# DataClaw MCP server — install from GitHub if pip package not yet published:
+# pip install git+https://github.com/bernardcaldas/dataclaw-mcp.git
+# dataclaw-mcp>=3.2.0
