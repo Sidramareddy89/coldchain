@@ -1,8 +1,6 @@
-﻿{
-  "version": 2,
-  "buildCommand": "cd Cold_store-main/Cold_store-main/artifacts/coldchain-twin && npm install && npm run build",
-  "outputDirectory": "Cold_store-main/Cold_store-main/artifacts/coldchain-twin/dist/public",
-  "installCommand": "echo skip",
+{
+  "buildCommand": "cd app && npm install && npm run build",
+  "outputDirectory": "app/dist/public",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]
